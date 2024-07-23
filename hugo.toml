@@ -1,6 +1,6 @@
 baseURL = 'https://spanishgardensone.com/'
 languageCode = 'en-us'
-title = 'Spanish Gardens I HOA'
+title = 'Spanish Gardens I Association'
 paginate = 3
 theme = 'maverick'
 
