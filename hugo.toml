@@ -47,7 +47,7 @@ theme = 'maverick'
     weight = 500
   [[menu.main]]
     identifier = "admin"
-    name = "Log in"
+    name = "Admin"
     url = "/admin/"
     weight = 600
 
