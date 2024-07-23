@@ -36,14 +36,20 @@ theme = 'maverick'
     weight = 300
   [[menu.main]]
     identifier = "faq"
-    name = "FAQ"
-    url = "/faq/"
+    name = "FAQs"
+    url = "/faqs/"
     weight = 400
+  [[menu.main]]
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    url = "/docs/"
+    weight = 500
   [[menu.main]]
     identifier = "admin"
     name = "Log in"
     url = "/admin/"
-    weight = 500
+    weight = 600
 
 [markup]
   [markup.goldmark.renderer]

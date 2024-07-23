@@ -1,3 +1,4 @@
 ## Frequently Asked Questions
-
-Here's some FAQs
+{{< details title="First FAQ">}}
+Here's the first answer.
+{{< /details >}}
