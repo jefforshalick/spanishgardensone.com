@@ -1,0 +1,1 @@
+header{flex-wrap:wrap}header ul li:first-child a{padding-left:0}header p a{padding-right:1rem}a:hover{text-decoration:underline}header p a:hover{text-decoration:none}.list li{padding-bottom:1rem}

@@ -12,8 +12,8 @@
       <section>
         {{ range (first 3 (where .Site.RegularPages "Section" "posts" ).ByDate.Reverse) }}
           <p>
-            <time class="g time" datetime="{{ dateFormat "01-02-2006" .Date }}">{{ dateFormat "01.02.2006" .Date }}</time>&nbsp;
             <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <time class="g time" datetime="{{ dateFormat "01-02-2006" .Date }}">{{ dateFormat "January 2, 2006" .Date }}</time>&nbsp;
           <p>
         {{ end }}
       </section>

@@ -1,0 +1,24 @@
+header {
+    flex-wrap: wrap;
+}
+
+header ul li:first-child a{
+    padding-left: 0rem;
+}
+
+header p a{
+    padding-right: 1rem;
+}
+
+a:hover{
+    text-decoration: underline solid;
+}
+
+header p a:hover{
+    text-decoration: none;
+}
+
+
+.list li {
+    padding-bottom: 1rem;
+}
