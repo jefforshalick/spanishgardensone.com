@@ -1,7 +1,9 @@
 ![Spanish Gardens Sign](images/spg_sign.png)
 
-## Welcome to an oasis in the desert
+<!-- ## Welcome to an oasis in the desert {.text-center} -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus. Massa tempor nec feugiat nisl pretium fusce id velit. Morbi quis commodo odio aenean sed adipiscing. Senectus et netus et malesuada fames ac. Tortor condimentum lacinia quis vel eros donec ac odio. Risus in hendrerit gravida rutrum quisque. Posuere ac ut consequat semper. Sodales ut etiam sit amet
+Welcome to an oasis in the desert. We are a small community of 76 individually owned units with 2 pools, 4 fountains, and plenty of green grass, foliage, and trees to go around. We share our entrance and exit with our sister property Spanish Gardens North.
 
----
+On this site, you can find information about our property, answers to frequently asked questions, notices about our upcoming meetings, links out to some other tools we use, and ways to contact the board and management.
+
+Whether you're an owner, tenant, or prospective buyer, welcome.
