@@ -39,6 +39,11 @@ theme = 'maverick'
     name = "FAQ"
     url = "/faq/"
     weight = 400
+  [[menu.main]]
+    identifier = "admin"
+    name = "Log in"
+    url = "/admin/"
+    weight = 500
 
 [markup]
   [markup.goldmark.renderer]
