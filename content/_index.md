@@ -1,4 +1,4 @@
-![Spanish Gardens Sign](images/spg_sign.png)
+![Spanish Gardens Sign](images/sign.png)
 
 <!-- ## Welcome to an oasis in the desert {.text-center} -->
 
