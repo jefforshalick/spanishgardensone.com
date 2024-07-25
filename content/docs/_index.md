@@ -4,7 +4,7 @@ title: "Docs"
 
 ## Docs
 
-<ul class="docs-list">
+<ul class="link-list">
 <li>
     <a href="/docs/CCRs - 1973.pdf">CCRs - 1973</a>
 </li>
