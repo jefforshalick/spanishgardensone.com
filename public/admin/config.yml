@@ -7,15 +7,25 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'posts'
-    label: 'Posts'
-    folder: 'content/posts'
+  # - name: 'posts'
+  #   label: 'Posts'
+  #   folder: 'content/posts'
+  #   create: true
+  #   slug: '{{slug}}'
+  #   editor:
+  #     preview: false
+  #   fields:
+  #     - { label: 'Title', name: 'title', widget: 'string' }
+  #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+  #     # - { label: 'Tag', name: 'tag', widget: 'string' }
+  #     - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'links'
+    label: 'Links'
+    folder: 'content/links'
     create: true
     slug: '{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      # - { label: 'Tag', name: 'tag', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'URL', name: 'url', widget: 'string' }

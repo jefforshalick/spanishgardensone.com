@@ -1,0 +1,41 @@
+{{ $links := where .Site.RegularPages "Section" "links" }}
+<div class="links-container">
+  {{ range $links }}
+    <div class="link-item">
+      <a href="{{ .Params.url }}" class="link-title" target="_blank" rel="noopener">
+        {{ .Title }}
+      </a>
+      {{ with .Description }}
+        <p class="link-description">{{ . }}</p>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+<style>
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.link-item {
+  border-left: 3px solid #e2e8f0;
+  padding-left: 1rem;
+}
+.link-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.link-title:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+.link-description {
+  margin: 0.5rem 0 0 0;
+  color: #4b5563;
+  line-height: 1.5;
+}
+</style>

@@ -24,9 +24,9 @@
   </url><url>
     <loc>http://localhost:52872/faqs/</loc>
   </url><url>
-    <loc>http://localhost:52872/links/</loc>
-  </url><url>
     <loc>http://localhost:52872/docs/</loc>
+  </url><url>
+    <loc>http://localhost:52872/links/</loc>
   </url><url>
     <loc>http://localhost:52872/tags/</loc>
   </url>
