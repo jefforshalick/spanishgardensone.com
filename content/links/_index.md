@@ -1,7 +1,6 @@
 ---
-title: Front Steps
+title: Links
 type: links
-url: https://spanishgardens1.frontsteps.com/
 ---
 
 {{< links >}}

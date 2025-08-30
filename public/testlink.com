@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Liste - http://localhost:1313/">
-    <title>Links | Spanish Gardens I Association</title>
-    <meta name="description" content="Welcome to Spanish Gardens I Association">
-    <meta property="og:url" content="http://localhost:1313/links/">
+    <title>Test Link | Spanish Gardens I Association</title>
+    <meta name="description" content="this is just a test">
+    <meta property="og:url" content="http://localhost:1313/testlink.com">
   <meta property="og:site_name" content="Spanish Gardens I Association">
-  <meta property="og:title" content="Links">
-  <meta property="og:description" content="Front Steps Test Link this is just a test">
+  <meta property="og:title" content="Test Link">
+  <meta property="og:description" content="this is just a test">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="links">
 
     
-  <meta itemprop="name" content="Links">
-  <meta itemprop="description" content="Front Steps Test Link this is just a test">
-  <meta itemprop="wordCount" content="9">
+  <meta itemprop="name" content="Test Link">
+  <meta itemprop="description" content="this is just a test">
     
-    <link rel="canonical" href="http://localhost:1313/links/">
+    <link rel="canonical" href="http://localhost:1313/testlink.com">
     <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
@@ -31,6 +31,59 @@
     <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} header{flex-wrap:wrap}header ul li:first-child a{padding-left:0}header p a{padding-right:1rem}a:hover{text-decoration:underline}header p a:hover{text-decoration:none}.list li{padding-bottom:1rem}.post-date{margin-top:0}.meta-info{color:gray;padding-bottom:.5rem}.post-title{margin-bottom:.5rem}.back{font-size:14px;margin-top:1rem}.back a{text-decoration:none;color:gray}.back a:hover{text-decoration:underline}.text-center{text-align:center}.home-content{margin-top:4rem}.link-list{list-style-type:none;padding-left:0}.link-list li{padding-bottom:10px}.link-list p{margin-top:8px;margin-left:16px}</style>
   
     
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "links",
+      "name": "Test Link",
+      "headline": "Test Link",
+      "alternativeHeadline": "",
+      "description": "this is just a test",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http:\/\/localhost:1313\/testlink.com"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "Spanish Gardens I Association",
+      "copyrightYear" : "0001",
+      "dateCreated": "0001-01-01T00:00:00.00Z",
+      "datePublished": "0001-01-01T00:00:00.00Z",
+      "dateModified": "0001-01-01T00:00:00.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "Spanish Gardens I Association",
+          "url": "http://localhost:1313/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "http:\/\/localhost:1313\/assets\/favicon.ico",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "http://localhost:1313/assets/favicon.ico",
+      "url" : "http:\/\/localhost:1313\/testlink.com",
+      "wordCount" : "0",
+      "genre" : [ ],
+      "keywords" : [ ]
+  }
+  </script>
+  
   
   </head>
 
@@ -74,74 +127,21 @@
 </header>
 <hr class="hr-list" style="padding: 0;margin: 0;">
     <section>
-      
-<div class="links-container">
-  
-    <div class="link-item">
-      <a href="https://spanishgardens1.frontsteps.com/" class="link-title" target="_blank" rel="noopener">
-        Front Steps
-      </a>
-      
-    </div>
-  
-    <div class="link-item">
-      <a href="testlink.com" class="link-title" target="_blank" rel="noopener">
-        Test Link
-      </a>
-      
-        <p class="link-description">this is just a test</p>
-      
-    </div>
-  
-</div>
-
-<style>
-.links-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.link-item {
-  border-left: 3px solid #e2e8f0;
-  padding-left: 1rem;
-}
-.link-title {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #2563eb;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.link-title:hover {
-  color: #1d4ed8;
-  text-decoration: underline;
-}
-.link-description {
-  margin: 0.5rem 0 0 0;
-  color: #4b5563;
-  line-height: 1.5;
-}
-</style>
-
-
-      <ul reversed class="list">
+      <div class="back">
+        <a href="/posts/">← Back to all posts</a>
+      </div>
+      <h2 class="post post-title">Test Link</h2>
+      <div class="meta-info">
         
-          <li>
-            <a class="link" href="http://localhost:1313/links/front-steps/" title="Front Steps">Front Steps
-            </a>
-            <hr class="hr-list">
-            <time class="g time" datetime="01-01-0001">January 1, 0001</time>
-          </li>
-        
-          <li>
-            <a class="link" href="http://localhost:1313/testlink.com" title="Test Link">Test Link
-            </a>
-            <hr class="hr-list">
-            <time class="g time" datetime="01-01-0001">January 1, 0001</time>
-          </li>
-        
-      </ul>
+        <div class="post-date">
+          <span class="g time">January 1, 0001</span>&nbsp;
+           
+        </div>
+      </div>
+      
+      
     </section>
+    
   </div>
 </main>
 </body>
