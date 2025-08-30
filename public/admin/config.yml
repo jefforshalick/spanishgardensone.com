@@ -6,9 +6,7 @@ backend:
   auth_endpoint: /api/auth
 media_folder: static/img
 public_folder: /img
-
 collections:
-  # Posts Collection
   - name: 'posts'
     label: 'Posts'
     folder: 'content/posts'
@@ -19,7 +17,9 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      # - { label: 'Tag', name: 'tag', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+<<<<<<< HEAD
 
   # Links Collection
   - name: 'links'
@@ -44,3 +44,5 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string', default: 'Documentation' }
       - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Maintain the HTML structure for the document list' }
+=======
+>>>>>>> parent of fea1e77 (Adds other pages to decap CMS)

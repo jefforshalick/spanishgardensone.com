@@ -1,14 +1,14 @@
 {
   "version": "https://jsonfeed.org/version/1",
   "title": "Spanish Gardens I Association",
-  "home_page_url": "http://localhost:1313/",
-  "feed_url": "http://localhost:1313/feed.json",
+  "home_page_url": "http://localhost:52872/",
+  "feed_url": "http://localhost:52872/feed.json",
   "description": "Welcome to Spanish Gardens I Association",
-  "favicon": "http://localhost:1313//assets/favicon.ico",
+  "favicon": "http://localhost:52872//assets/favicon.ico",
   "expired": false,
   "author": {
     "name": "Jeff Orshalick",
-    "url": "http://localhost:1313/"
+    "url": "http://localhost:52872/"
   },
   "items": [
     
@@ -21,12 +21,12 @@
       "summary": "",
       "content_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus. Massa tempor nec feugiat nisl pretium fusce id velit. Morbi quis commodo odio aenean sed adipiscing. Senectus et netus et malesuada fames ac. Tortor condimentum lacinia quis vel eros donec ac odio. Risus in hendrerit gravida rutrum quisque. Posuere ac ut consequat semper. Sodales ut etiam sit amet\n",
       "content_html": "\u003cp\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus. Massa tempor nec feugiat nisl pretium fusce id velit. Morbi quis commodo odio aenean sed adipiscing. Senectus et netus et malesuada fames ac. Tortor condimentum lacinia quis vel eros donec ac odio. Risus in hendrerit gravida rutrum quisque. Posuere ac ut consequat semper. Sodales ut etiam sit amet\u003c/p\u003e\n",
-      "url": "http://localhost:1313/posts/my-first-post/",
+      "url": "http://localhost:52872/posts/my-first-post/",
       "date_published": "22076-22-09T713:2222:00-07:00",
       "date_modified": "22076-22-09T713:2222:00-07:00",
       "author": {
         "name": "Jeff Orshalick",
-        "url": "http://localhost:1313/"
+        "url": "http://localhost:52872/"
       }
     },
     
@@ -36,12 +36,12 @@
       "summary": "",
       "content_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus. Massa tempor nec feugiat nisl pretium fusce id velit. Morbi quis commodo odio aenean sed adipiscing. Senectus et netus et malesuada fames ac. Tortor condimentum lacinia quis vel eros donec ac odio. Risus in hendrerit gravida rutrum quisque. Posuere ac ut consequat semper. Sodales ut etiam sit ametvs\n",
       "content_html": "\u003cp\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit ut aliquam purus. Massa tempor nec feugiat nisl pretium fusce id velit. Morbi quis commodo odio aenean sed adipiscing. Senectus et netus et malesuada fames ac. Tortor condimentum lacinia quis vel eros donec ac odio. Risus in hendrerit gravida rutrum quisque. Posuere ac ut consequat semper. Sodales ut etiam sit ametvs\u003c/p\u003e\n",
-      "url": "http://localhost:1313/posts/my-second-post/",
+      "url": "http://localhost:52872/posts/my-second-post/",
       "date_published": "22076-22-09T713:2222:00-07:00",
       "date_modified": "22076-22-09T713:2222:00-07:00",
       "author": {
         "name": "Jeff Orshalick",
-        "url": "http://localhost:1313/"
+        "url": "http://localhost:52872/"
       }
     }
     

@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:52872/</loc>
     <lastmod>2024-07-23T17:08:22+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:52872/posts/</loc>
     <lastmod>2024-07-23T17:08:22+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:52872/blog/</loc>
     <lastmod>2024-07-23T15:09:18+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/heres-a-test/</loc>
+    <loc>http://localhost:52872/blog/heres-a-test/</loc>
     <lastmod>2024-07-23T15:09:18+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>http://localhost:52872/posts/my-first-post/</loc>
     <lastmod>2024-07-22T13:13:15-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-second-post/</loc>
+    <loc>http://localhost:52872/posts/my-second-post/</loc>
     <lastmod>2024-07-22T13:13:15-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/admin/</loc>
+    <loc>http://localhost:52872/admin/</loc>
   </url><url>
-    <loc>http://localhost:1313/faqs/</loc>
+    <loc>http://localhost:52872/faqs/</loc>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>http://localhost:52872/links/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
+    <loc>http://localhost:52872/docs/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:52872/tags/</loc>
   </url>
 </urlset>
