@@ -24,39 +24,23 @@ collections:
   # Links Collection
   - name: 'links'
     label: 'Links'
-    folder: 'content/links'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
+    file: 'content/links/_index.md'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'URL', name: 'url', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'markdown', required: false }
-      - { label: 'Weight', name: 'weight', widget: 'number', value_type: 'int', required: false }
+      - { label: 'Title', name: 'title', widget: 'string', default: 'Links' }
+      - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Maintain the HTML structure for the link list' }
 
   # FAQs Collection
   - name: 'faqs'
     label: 'FAQs'
-    folder: 'content/faqs'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
+    file: 'content/faqs/_index.md'
     fields:
-      - { label: 'Question', name: 'title', widget: 'string' }
-      - { label: 'Answer', name: 'body', widget: 'markdown' }
-      - { label: 'Weight', name: 'weight', widget: 'number', value_type: 'int', required: false }
+      - { label: 'Title', name: 'title', widget: 'string', default: 'Frequently Asked Questions' }
+      - { label: 'FAQ Content', name: 'body', widget: 'markdown', hint: 'Use the following format for each FAQ: {{< details title="Question">}}Answer{{< /details >}}' }
 
   # Docs Collection
   - name: 'docs'
     label: 'Documentation'
-    folder: 'content/docs'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
+    file: 'content/docs/_index.md'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Weight', name: 'weight', widget: 'number', value_type: 'int', required: false }
+      - { label: 'Title', name: 'title', widget: 'string', default: 'Documentation' }
+      - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Maintain the HTML structure for the document list' }
