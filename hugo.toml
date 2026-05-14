@@ -1,7 +1,8 @@
 baseURL = 'https://spanishgardensone.com/'
 languageCode = 'en-us'
 title = 'Spanish Gardens I Association'
-paginate = 3
+[pagination]
+  pagerSize = 3
 theme = 'maverick'
 
 [permalinks]
@@ -73,7 +74,7 @@ theme = 'maverick'
   tag = "tags"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
   section = ["HTML"]
 
 [outputFormats.RSS]
