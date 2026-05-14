@@ -2,7 +2,7 @@
 <div class="links-container">
   {{ range $links }}
     <div class="link-item">
-      <a href="{{ .Params.url }}" class="link-title" target="_blank" rel="noopener">
+      <a href="{{ .Params.link }}" class="link-title" target="_blank" rel="noopener">
         {{ .Title }}
       </a>
       {{ with .Description }}
