@@ -1,0 +1,5 @@
+name = "spanishgardensone"
+compatibility_date = "2024-07-22"
+
+[assets]
+directory = "./public"
