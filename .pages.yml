@@ -1,0 +1,16 @@
+# Pages CMS (https://pagescms.org): edit the site's notice banner.
+content:
+  - name: notice
+    label: Notice banner
+    type: file
+    path: site/notice.json
+    format: json
+    fields:
+      - name: showNotice
+        label: Show notice banner
+        type: boolean
+        default: false
+      - name: notice
+        label: Notice text
+        description: Shown in the yellow banner at the top of the site when "Show notice banner" is on.
+        type: text

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="only light">
+  <title>Spanish Gardens I Association</title>
+  <meta name="description" content="Resident hub for Spanish Gardens I: pay assessments, find documents, meetings, FAQs, and how to reach community management.">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a class="brand" href="/">Spanish Gardens I <span>Association</span></a>
+  </div>
+</header>
+
+<!-- Notice banner: filled from /notice.json (edit it in Pages CMS). Stays hidden unless showNotice is on. -->
+<aside class="notice" id="notice" hidden>
+  <div class="wrap">
+    <strong>Notice:</strong> <span id="notice-text"></span>
+  </div>
+</aside>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero-text">
+      <h1>An oasis in the desert</h1>
+      <p>We are a small community of 76 individually owned units with 2 pools, 4 fountains, and plenty of green grass, foliage, and trees to go around. We share our entrance and exit with our sister property, Spanish Gardens North.</p>
+    </div>
+  </section>
+
+  <nav class="tiles wrap" aria-label="Common tasks">
+    <a class="tile" href="https://gudhoa.cincconnect.com/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M7 15h3"/></svg>
+      <span class="tile-title">Pay dues</span>
+      <span class="tile-sub">On the resident portal <span aria-hidden="true">↗</span></span>
+    </a>
+    <a class="tile" href="#documents">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>
+      <span class="tile-title">Documents</span>
+      <span class="tile-sub">CC&amp;Rs, bylaws, insurance</span>
+    </a>
+    <a class="tile" href="https://groups.io/g/spg1/join" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h3l6 4V5L7 9z"/><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/></svg>
+      <span class="tile-title">Email list</span>
+      <span class="tile-sub">Community listserv <span aria-hidden="true">↗</span></span>
+    </a>
+    <a class="tile" href="#faq">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17.5v.01"/></svg>
+      <span class="tile-title">FAQ</span>
+      <span class="tile-sub">Common questions</span>
+    </a>
+    <a class="tile" href="#contact">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      <span class="tile-title">Contact</span>
+      <span class="tile-sub">Community management</span>
+    </a>
+  </nav>
+
+  <section id="meetings" class="panel wrap">
+    <h2>Meetings</h2>
+    <!-- The date below is calculated by the script at the bottom of the page. -->
+    <p class="next-meeting" id="next-meeting" hidden>Next meeting: <strong id="next-meeting-date"></strong></p>
+    <p class="meetings-text">The board meets on Zoom the second Tuesday of every month. Executive session starts at 4:00 pm, followed by the open session at 4:30 pm. In November, the annual meeting is held at 7:30 pm instead, with no executive session. Before each meeting, GUD Community Management emails owners the Zoom invitation and agenda. If you aren't receiving them, <a href="#contact">contact management</a>.</p>
+  </section>
+
+  <section id="documents" class="panel wrap">
+    <h2>Documents</h2>
+    <h3>Governing</h3>
+    <ul class="doc-list">
+      <li><a href="/docs/CCRs%20-%201973.pdf">CC&amp;Rs</a><span>1973</span></li>
+      <li><a href="/docs/Bylaws%20-%202023.pdf">Bylaws</a><span>2023</span></li>
+      <li><a href="/docs/Rules%20and%20Regulations%20-%202021.pdf">Rules and regulations</a><span>2021</span></li>
+      <li><a href="/docs/Architectural%20Standards%20-%202001.pdf">Architectural standards</a><span>2001</span></li>
+    </ul>
+    <h3>Amendments</h3>
+    <ul class="doc-list">
+      <li><a href="/docs/Amendment%20to%20CCR%20-%201976.pdf">CC&amp;R amendment</a><span>1976</span></li>
+      <li><a href="/docs/Amendment%20to%20CCR%20-%20Roofs%201977.pdf">CC&amp;R amendment: roofs</a><span>1977</span></li>
+      <li><a href="/docs/Amendment%20to%20CCR%20%26%20Bylaws%20-%201985.pdf">CC&amp;R and bylaws amendment</a><span>1985</span></li>
+      <li><a href="/docs/Amendment%20Bylaws%20-%202008.pdf">Bylaws amendment</a><span>2008</span></li>
+    </ul>
+    <h3>Insurance</h3>
+    <ul class="doc-list">
+      <li><a href="/docs/Certificate%20of%20Insurance%20-%202026.pdf">Certificate of insurance</a><span>2026–27</span></li>
+    </ul>
+  </section>
+
+  <section id="faq" class="panel wrap">
+    <h2>Frequently asked questions</h2>
+    <details>
+      <summary>How do I pay my monthly assessment?</summary>
+      <ul>
+        <li><strong>Online:</strong> through the <a href="https://gudhoa.cincconnect.com/" target="_blank" rel="noopener">resident portal</a> by e-check ($2.99 fee) or credit card (3.5% fee). On your first visit, click Register. GUD will email you a link to set your password once your account is approved.</li>
+        <li><strong>By phone:</strong> call Western Alliance Bank's payment support team at <a href="tel:+18447392331">(844) 739-2331</a>.</li>
+        <li><strong>By mail or bank bill pay:</strong> make checks payable to Spanish Gardens I Association, put your account number in the memo line, and mail them to:<br>Spanish Gardens I Association<br>c/o GUD Community Management<br>P.O. Box 94915<br>Las Vegas, NV 89193-4915</li>
+      </ul>
+      <p>Don't mail payments to GUD's Mesa office; they'll be delayed. If you use your bank's online bill pay, update the payee address to the P.O. box above.</p>
+    </details>
+    <details>
+      <summary>What's my account number?</summary>
+      <p>It's SGD followed by your lot number, for example SGD123. If you're not sure, email <a href="mailto:info@gudhoa.com">info@gudhoa.com</a>.</p>
+    </details>
+    <details>
+      <summary>Can I set up automatic payments?</summary>
+      <p>Yes, either through the <a href="https://gudhoa.cincconnect.com/" target="_blank" rel="noopener">resident portal</a> (e-check $1.99, card 3.5%) or through Western Alliance Bank (free e-check, $5 debit card, 3% credit card). For Western Alliance, go to <a href="https://gudhoa.com/" target="_blank" rel="noopener">gudhoa.com</a>, choose Homeowners, then "Western Alliance Bank—One-time or Recurring." You'll still receive billing statements with automatic payments.</p>
+    </details>
+    <details>
+      <summary>How do I submit an architectural request?</summary>
+      <p>Submit it online through the <a href="https://gudhoa.cincconnect.com/" target="_blank" rel="noopener">resident portal</a> under My Property, or request a paper form from GUD Community Management at <a href="mailto:info@gudhoa.com">info@gudhoa.com</a>. Before you start, review the <a href="/docs/Architectural%20Standards%20-%202001.pdf">architectural standards</a>.</p>
+    </details>
+  </section>
+
+  <section id="contact" class="panel wrap">
+    <h2>Contact</h2>
+    <p class="contact-intro">Spanish Gardens I is managed by GUD Community Management. You can also reach them through the <a href="https://gudhoa.cincconnect.com/" target="_blank" rel="noopener">resident portal</a>.</p>
+    <div class="contact-grid">
+      <div>
+        <h3>Main office</h3>
+        <p>For payment, balance, and account questions<br><a href="tel:+14806351133">480-635-1133</a><br><a href="mailto:info@gudhoa.com">info@gudhoa.com</a></p>
+      </div>
+      <div>
+        <h3>Sheri Dunn</h3>
+        <p>Community Manager<br><a href="tel:+14806391299">480-639-1299</a><br><a href="mailto:sdunn@gudhoa.com">sdunn@gudhoa.com</a></p>
+      </div>
+      <div>
+        <h3>Tina Hensley</h3>
+        <p>Assistant Community Manager<br><a href="tel:+14806264949">480-626-4949</a><br><a href="mailto:tina@gudhoa.com">tina@gudhoa.com</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+  // Load the notice that Pages CMS edits
+  fetch('/notice.json', { cache: 'no-cache' })
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      var notice = (data.notice || '').trim();
+      if (data.showNotice && notice) {
+        document.getElementById('notice-text').textContent = notice;
+        document.getElementById('notice').hidden = false;
+      }
+    })
+    .catch(function () {});
+
+  // Show the next board meeting: the second Tuesday of the month, in Arizona time.
+  // A meeting stays listed through the end of its day.
+  (function () {
+    var parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Phoenix', year: 'numeric', month: 'numeric', day: 'numeric'
+    }).formatToParts(new Date());
+    var get = function (type) {
+      return Number(parts.find(function (p) { return p.type === type; }).value);
+    };
+    var year = get('year'), month = get('month') - 1, day = get('day');
+
+    function secondTuesday(y, m) {
+      var firstWeekday = new Date(Date.UTC(y, m, 1)).getUTCDay();
+      return 1 + ((2 - firstWeekday + 7) % 7) + 7;
+    }
+
+    var meetingDay = secondTuesday(year, month);
+    if (day > meetingDay) {
+      month += 1;
+      if (month > 11) { month = 0; year += 1; }
+      meetingDay = secondTuesday(year, month);
+    }
+
+    var label = new Date(Date.UTC(year, month, meetingDay)).toLocaleDateString('en-US', {
+      timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
+    });
+    if (year === get('year') && month === get('month') - 1 && meetingDay === day) label = 'Today, ' + label;
+    // November is the annual meeting, held at 7:30 pm
+    if (month === 10) label += ' · Annual meeting, 7:30 pm';
+    document.getElementById('next-meeting-date').textContent = label;
+    document.getElementById('next-meeting').hidden = false;
+  })();
+</script>
+
+</body>
+</html>
